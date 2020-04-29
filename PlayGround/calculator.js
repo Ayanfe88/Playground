@@ -1,15 +1,15 @@
-var x = 5
+var x = 4
 var remainder = x % 2;
-function RemNum(x)
-{
-    return remainder;
-}
 
-if (RemNum)
+function RemNum()
 {
-    console.log(" Number " + x + " is Odd ");
+    if (remainder != 0)
+    {
+        console.log(" Number " + x + " is Odd ");
+    }
+    else
+    {
+        console.log(" Number " + x + " is Even ");
+    }  
 }
-else
-{
-    console.log(" Number " + x + " is Even ");
-}
+RemNum();
