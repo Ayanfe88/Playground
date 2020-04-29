@@ -1,6 +1,7 @@
 // Task: creating object of a person
 // name, age, sex
 // create a function that returns the year of birth
+
 var Person = {
     Name : " Femi ",
     Age :  24, 
