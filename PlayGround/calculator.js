@@ -1,4 +1,4 @@
-var x = 4
+var x = 7
 var remainder = x % 2;
 
 function RemNum()
