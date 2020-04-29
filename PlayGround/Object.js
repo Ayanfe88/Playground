@@ -1,4 +1,14 @@
 // Task: creating object of a person
 // name, age, sex
-var Person = {Name : " Femi ", age : " 28 ", sex : " Male "};
-console.log(Person);
+// create a function that returns the year of birth
+var Person = {
+    Name : " Femi ",
+    Age :  24, 
+    Sex : " Male "};
+//console.log(Person);
+var year = 2020 - Age; // calculating the year of birth
+function getBirthYear() 
+{
+ return year;
+}
+console.log(getBirthYear(year));
