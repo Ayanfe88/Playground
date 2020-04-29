@@ -1,9 +1,8 @@
-var x = 6;
+var x = 5
 var remainder = x % 2;
-
-function RemNum(NumX)
+function RemNum(x)
 {
-    return(remainder != 0);
+    return remainder;
 }
 
 if (RemNum)
