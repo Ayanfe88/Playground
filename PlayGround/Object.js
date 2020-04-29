@@ -4,7 +4,7 @@
 
 var Person = {
     Name : " Femi ",
-    Age : 28 , 
+    Age : 18 , 
     Sex : " Male ",
 };
 //console.log( " Your name is " +Person.Name);
@@ -17,7 +17,7 @@ getBirthYear();
  
 // Homework
 function personClassifier()
-{ if (new Date().getFullYear() <= Year)
+{ if (2000 <= Year)
     {
     console.log(" Millennial ");}
 else{
