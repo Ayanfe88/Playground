@@ -7,7 +7,7 @@ var Person = {
     Age : 18 , 
     Sex : " Male ",
 };
-//console.log( " Your name is " +Person.Name);
+console.log( " Your name is " +Person.Name);
  var Year = new Date().getFullYear() - Person.Age;  // calculating the year of birth
 function getBirthYear() //function that returns the year of birth
 {
@@ -21,6 +21,6 @@ function personClassifier()
     {
     console.log(" Millennial ");}
 else{
-    console.log( " Not Millennial");
+    console.log( " Not Millennial ");
 }}
 personClassifier();
