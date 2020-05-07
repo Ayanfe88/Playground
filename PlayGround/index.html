@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics</title>
+</head>
+<body>
+    
+    <h1>Homework</h1>
+
+    <input type="text" id="userInput"/>
+    <botton onclick="addTo()">Add Number </botton>
+    <br><br>
+    <botton onclick="splitNums()">Split Odd and Even </botton>
+
+    <p>
+    <span id="display"></span>
+    
+    <script>
+
+    var numArr = [];
+    var evenOdd = {even: [], odd: []};
+    
+     function addTo() {
+       numArr.push(document.getElementById("userInput").value);//
+       //console.log(numArr);
+    }
+
+    function splitNums() {
+               numArr.forEach(function(number){
+                   if(number % 2 === 0){
+                       evenOdd.even.push(number);
+                   }else{
+                    evenOdd.odd.push(number);
+                   };
+               });
+               document.getElementById('display').innerHTML = "Even numbers: " 
+               + evenOdd.even + "<br>" + "Odd numbers:" + evenOdd.odd;
+            }
+    </script>
+</body>
+</html>
