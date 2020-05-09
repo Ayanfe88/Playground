@@ -1,0 +1,12 @@
+{
+  "name": "class_test_1",
+  "version": "1.0.0",
+  "description": "A sample application to test npm",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ayanfe",
+  "license": "ISC"
+}
