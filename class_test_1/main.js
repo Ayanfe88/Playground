@@ -1,7 +1,8 @@
 const http = require("http");
 //const routes = require("./routes");
-function nameFemi(){
-    return "femi";
+function personDetail(){
+    return ["Femi",
+           "Tallinn Estonia"]
 }
 const routes = (req, res) => {
     res.write(nameFemi());
