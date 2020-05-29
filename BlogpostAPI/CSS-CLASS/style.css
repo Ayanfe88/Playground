@@ -25,15 +25,16 @@ ul{
     font-size: 30px;
 }
 #image{
-    width: 50px;
+    width: 100%;
+    height: auto;
     display: block;
-    margin-top: 30px;
+    
 }
 
 .imageWrapper{
 width: 350px;
 height: 350px;
 
-overflow: scroll;
+margin-top: 30px;
 
 }
