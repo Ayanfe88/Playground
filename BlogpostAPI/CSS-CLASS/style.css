@@ -20,6 +20,20 @@ ul{
     font-weight: 400;
     text-decoration: none;
 }
-a:hover{
+.link:hover{
     color: red;
+    font-size: 30px;
+}
+#image{
+    width: 50px;
+    display: block;
+    margin-top: 30px;
+}
+
+.imageWrapper{
+width: 350px;
+height: 350px;
+
+overflow: scroll;
+
 }
