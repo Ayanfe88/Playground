@@ -1,10 +1,13 @@
 h1{
     color: green;
-    font-size: 20px;
+    font-size: 50px;
     font-weight: 600;
-
+    text-align: center;
+    background-color: aquamarine;
+  
     padding : 20px;
-    border: 1px solid green;
+    border: 2px solid green;
+    border-radius: 10px;
     margin: 50px;
 }
 ul{
@@ -26,16 +29,17 @@ ul{
     font-size: 30px;
 }
 #image{
+    border-radius: 10px;
     width: 100%;
     height: auto;
-    display: block;
-    
+    display: block;  
 }
 
 .imageWrapper{
+    border-radius: 10px;
+margin: 0 auto;
 width: 350px;
-height: 350px;
-
+height: auto;
 margin-top: 30px;
-
+border: 2px solid rgb(32, 51, 2);
 }
