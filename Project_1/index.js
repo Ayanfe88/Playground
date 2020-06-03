@@ -46,7 +46,7 @@ client.on('ready', () => {
                  msg.reply('Privet');
                  break;     
             default:
-                 msg.reply('Check again!');
+                 msg.reply('Check again please!');
          };
      }
 });
